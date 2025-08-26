@@ -13,14 +13,13 @@
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--text-primary);
-  display: flex;
-  justify-content: center;
 
 }
 
 .chat-container {
   width: 100%;
-  max-width: 50vw;
+  max-width: 60vw;
+  margin: auto;
   height: 90vh;
   max-height: 800px;
   background: #ffffff;

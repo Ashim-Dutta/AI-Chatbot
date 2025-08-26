@@ -33,7 +33,7 @@ function App() {
   }, [inputMessage]);
 
   useEffect(() => {
-    const socketInstance = io("http://localhost:3000", {
+    const socketInstance = io("https://ai-chatbot-ikxj.onrender.com", {
       reconnectionAttempts: 5,
       reconnectionDelay: 1000,
     });
