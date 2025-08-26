@@ -3,9 +3,9 @@ const app = express();
 const path = require('path')
 
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
+// app.get('/', (req, res) => {
+//   res.send('Hello World!');
+// });
 
 app.use(express.static(path.join(__dirname, '../public')))
 
